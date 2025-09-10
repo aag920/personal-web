@@ -56,3 +56,54 @@ h4 {
 .hand-plant {
   margin: auto;
 }
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 20px;
+}
+
+.about-container {
+  background-color: rgb(144, 191, 166);
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.vid-games,
+.family,
+.pets {
+  text-align: left;
+}
+
+.p1,
+.p2,
+.p3 {
+  text-align: left;
+}
+
+.portfolio-left {
+  text-align: left;
+}
+
+.white-box1,
+.white-box2,
+.white-box3 {
+  background-color: white;
+  padding: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.heading1,
+.heading2,
+.heading3 {
+  text-align: left;
+  position: relative;
+  line-height: 5;
+}
