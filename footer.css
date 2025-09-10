@@ -1,0 +1,11 @@
+footer {
+  background-color: lightgray;
+  color: skyblue;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  padding: 10px;
+}
