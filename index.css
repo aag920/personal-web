@@ -51,6 +51,7 @@ h4 {
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: center;
+  overflow: hidden;
 }
 
 .hand-plant {
@@ -63,6 +64,7 @@ h4 {
   flex-wrap: wrap;
   align-content: center;
   margin: 20px;
+  overflow: hidden;
 }
 
 .about-container {
@@ -73,20 +75,15 @@ h4 {
   min-height: 100vh;
 }
 
-.vid-games,
-.family,
-.pets {
-  text-align: left;
-}
-
 .p1,
 .p2,
 .p3 {
   text-align: left;
+  overflow: hidden;
 }
 
-.portfolio-left {
-  text-align: left;
+.p2 {
+  margin-top: -8px;
 }
 
 .white-box1,
@@ -99,6 +96,8 @@ h4 {
   width: 90%;
   margin: 20px auto;
   height: 300px;
+  overflow: hidden;
+  padding: 0%;
 }
 
 .heading1,
@@ -106,5 +105,51 @@ h4 {
 .heading3 {
   text-align: left;
   position: relative;
-  line-height: 5;
+  line-height: 0em;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid black;
+}
+
+.portfolio-left {
+  text-align: left;
+}
+
+.family {
+  width: 200px;
+  height: 300px;
+  float: right;
+}
+
+.camera,
+.clayhand,
+.hammer {
+  width: 150px;
+  height: 150px;
+  float: right;
+  position: relative;
+  top: -150px;
+  margin-top: 120px;
+}
+
+.clayhand {
+  margin-top: 150px;
+}
+.controller,
+.rosie {
+  float: right;
+  width: 300px;
+  height: 200px;
+}
+
+.our-family {
+  text-align: left;
+}
+
+.section1,
+.section2,
+.section3 {
+  text-align: left;
+  overflow-wrap: normal;
+  text-wrap: wrap;
 }

@@ -40,3 +40,7 @@ header menu li a:hover {
 .border-top {
   border-top: 1px solid black;
 }
+
+.nav {
+  font-weight: bold;
+}
