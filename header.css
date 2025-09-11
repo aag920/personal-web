@@ -1,13 +1,22 @@
 header nav {
-  background: var(--fg);
-  color: white;
   display: flex;
   justify-content: space-between;
   background-color: lightgray;
-  width: 100%;
+  max-width: 100%;
 }
 
 header menu {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-color: black;
+  border-width: 5px;
+}
+
+header menu div {
   list-style-type: none;
   margin: 10px;
   padding: 0;
